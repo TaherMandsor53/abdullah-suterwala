@@ -1,0 +1,80 @@
+.main-content {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  .about-me-content {
+    // background: #ffffb7;
+    background: #fdd291;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 380px;
+    width: 500px;
+    padding: 20px 30px;
+    .about-me-text {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .about-me-desc {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-bottom: 20px;
+    }
+    .about-me-details {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  }
+  .main-content-img {
+    height: 350px;
+    width: 400px;
+    border: 2px solid #fdd291;
+    border-radius: 10px;
+    animation: at-ripple 0.6s linear infinite;
+  }
+}
+
+body {
+  margin: 0;
+  background: #000814;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content {
+    gap: 30px;
+    flex-wrap: wrap;
+
+    .about-me-content {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+      margin: 10px;
+      .about-me-desc {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 12px;
+      }
+      .about-me-text {
+        font-size: 16px;
+        margin-bottom: 12px;
+      }
+      .about-me-details {
+        font-size: 14px;
+        margin-bottom: 2px;
+      }
+    }
+    .main-content-img {
+      width: 270px;
+      margin: 10px;
+      border-radius: 50%;
+      height: 270px;
+    }
+  }
+}
