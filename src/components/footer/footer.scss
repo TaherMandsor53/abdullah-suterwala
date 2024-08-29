@@ -1,0 +1,13 @@
+.footer-main {
+  color: #fdd291;
+  border-top: 1px solid #fdd291;
+  font-size: 16px;
+  margin: 20px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  .copy-right-icon {
+    color: #fdd291;
+    padding: 0 3px;
+  }
+}

@@ -1,0 +1,23 @@
+.project-details-main {
+  .project-tab {
+    margin: 0 20px;
+  }
+  .project-image-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    .project-img {
+      border: 1px solid transparent;
+      border-radius: 10px;
+    }
+  }
+}
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-tabs .ant-tabs-tab {
+  color: #fdd291 !important;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active {
+  color: #fdd291 !important;
+}

@@ -4,6 +4,7 @@ import MailIcon from '../../assets/mailIcon.svg';
 import PhoneIcon from '../../assets/phoneIcon.svg';
 import InstaIcon from '../../assets/InstaIcon.svg';
 import Services from './Services';
+import Projects from './Projects';
 
 export default function MainContent() {
   return (
@@ -35,6 +36,7 @@ export default function MainContent() {
         <img src={AbdullahImg} alt="mine-photo" className="main-content-img" />
       </div>
       <Services />
+      <Projects />
     </>
   );
 }
