@@ -4,6 +4,7 @@ import DesignIcon from '../../assets/designIcon.svg';
 import ProjectIcon from '../../assets/projectIcon.svg';
 import InteriorDesignIcon from '../../assets/InteriorDesign.svg';
 import RenovationIcon from '../../assets/RenovationIcon.svg';
+import CommercialIcon from '../../assets/residentialCommercialIcon.svg';
 
 export default function Services() {
   return (
@@ -21,6 +22,13 @@ export default function Services() {
         <div className="section-1">
           <img src={ProjectIcon} alt="construction" className="section-img" />
           <div className="section-text">Trunky Projects</div>
+        </div>
+        <div className="section-1">
+          <img src={CommercialIcon} alt="construction" className="section-img" />
+          <div className="section-text">
+            Commercial & Residential
+            <br /> Projects
+          </div>
         </div>
         <div className="section-1">
           <img src={InteriorDesignIcon} alt="construction" className="section-img" />
